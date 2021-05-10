@@ -8,6 +8,7 @@
 html, body{
     color: #222;
     font-family: "Montserrat", sans-serif;
+    background-color: whitesmoke;
 }
 
 a{
@@ -19,6 +20,10 @@ h1{
     font-family: "Long Cang", cursive;
     font-size: 3rem;
     font-weight: lighter;
+}
+
+h2{
+    font-size: 3.3rem;
 }
 
 /* header */
@@ -49,23 +54,220 @@ header > h1 > i{
 
 /* HERO */
 .hero{
-    height: 43rem;
-    background: url();
+    height: 35rem;
+    background: url(../img/frame.jpg) center center;
     background-size: cover;
     padding-top: 9rem;
 }
 
 .hero > div{
-    max-width: 37rem;
+    max-width: 50rem;
     color: white;
     margin: auto;
     text-align: center;
-
 }
 
 .hero > div > p{
-    font-size: 1.2rem;
+    font-size: 2rem;
     letter-spacing: 0.5px;
     font-weight: 400;
     margin-bottom: 1rem;
+    padding: 1.5rem;
+}
+
+.hero > div > h2 > span{
+    color: #f1c40f;
+    font-weight: lighter;
+}
+
+/* Les offres */
+.offres{
+    display: flex;
+    flex-flow: column;
+    margin: 2rem;
+    padding: 5rem;
+    align-items: center;
+}
+
+.offres > h3{
+    font-weight: lighter;
+    font-size: 1.8rem;
+}
+
+.offres > div > div > img{
+    width: 400px;
+}
+
+.offres > div{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.offres > div > div{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    margin: 1rem;
+}
+
+.offres > div > div > p{
+    margin: 1rem 1rem;
+}
+
+.barette{
+    width: 4rem;
+    height: 3px;
+    background-color: black;
+}
+
+/* L'équipe */
+.équipe{
+    height: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.équipe > div > img{
+    width: 800px;
+    height: 32rem;
+    background: center center;
+}
+
+.text{
+    padding-top: 9rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color: #444;
+    height: 32rem;
+    text-align: left;
+    margin: auto;
+    color: white;
+}
+
+.text > h3{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.text > h3 > span{
+    color: #f1c40f;
+    font-weight: lighter;
+}
+
+.text > p{
+    font-weight: 400;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+}
+
+/*Commentaire*/
+.commentaire{
+    margin: 3rem 5rem;
+}
+
+.commentaire > h3{
+    font-weight: lighter;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.commgauche{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin: 2rem;
+    background-color: white;
+}
+
+.commdroit{
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+    margin: 2rem;
+    background-color: white;
+}
+
+.commentaire > div > div > div > img{
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}
+
+.comm{
+    align-items: center;
+    text-align: left;
+    margin: 3rem;
+}
+
+.profil{
+    margin: 1.5rem;
+}
+
+/* Formulaire */
+.formulaire{
+    padding-top: 5rem;
+    text-align: center;
+    font-weight: bold;
+    height: 35rem;
+    background-color: #444;
+}
+
+.formulaire > h3{
+    color: white;
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+}
+
+.formulaire > h3 > span{
+    color: #f1c40f;
+}
+
+.formulaire > form{
+    margin: 0 auto;
+    width: 500px;
+    padding: 1rem;
+}
+
+.formulaire > form > input{
+    background-color: #444;
+    box-sizing: border-box;
+    width: 500px;
+    padding: 1rem;
+    border:none;
+    border-bottom: 1px solid white;
+    font: 1em sans-serif;
+}
+
+.formulaire > form > textarea{
+    background-color: #444;
+    box-sizing: border-box;
+    width: 500px;
+    padding: 1rem;
+    height: min-content;
+    border:none;
+    border-bottom: 1px solid white;
+    font: 1em sans-serif;
+}
+
+.formulaire > form > button{
+    padding: 1rem 1.5rem;
+    margin-top: 3rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    display: inline-block;
+    background: #f1c40f;
+    color: white;
+    width: max-content;
+}
+
+footer{
+    background: #222;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
 }
