@@ -1,0 +1,70 @@
+@media screen and (min-width: 500px) and (max-width: 600px){
+    header{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    header > nav > ul{
+        display: flex;
+        flex-flow: column;
+        width: 400px;
+        text-align: center;
+    }
+
+    header > nav > ul > li{
+        border-bottom: 1px solid white;
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    .hero{
+        height: auto;
+    }
+
+    .offres > div{
+        display: flex;
+        flex-flow: column;
+    }
+
+    .équipe{
+        display: flex;
+        flex-flow: column-reverse;
+        height: auto;
+    }
+
+    .text{
+        height: auto;
+    }
+
+    .équipe > div > img{
+        width: 500px;
+        height: auto;
+        background: center center;
+    }
+
+    .commgauche{
+        display: flex;
+        flex-flow: column;
+    }
+
+    .commdroit{
+        display: flex;
+        flex-flow: column;
+    }
+
+    .profil{
+        margin: 3rem;
+        text-align: center;
+    }
+
+    .formulaire > form > input{
+        width: 400px;
+    }
+
+    .formulaire > form > textarea{
+        width: 400px;
+    }
+}
